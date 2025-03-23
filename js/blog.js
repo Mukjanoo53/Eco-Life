@@ -6,10 +6,7 @@ const footer = document.querySelector('footer p');
 footer.textContent = `© ${new Date().getFullYear()} Eco-Life. All Rights Reserved.`;
 
 const blogSection = document.querySelector('.blog-section');
-const newPost = document.createElement('div');
-newPost.className = 'blog-post';
-newPost.innerHTML = '<h3><a href="new-post.html">New Eco-Tips</a></h3><p>Latest sustainability tips!</p>';
-blogSection.appendChild(newPost);
+
 
 const blogPosts = document.querySelectorAll('.blog-post h3 a');
 blogPosts.forEach(post => {
