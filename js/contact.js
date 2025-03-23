@@ -5,10 +5,7 @@ contactHeader.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.5)';
 const footer = document.querySelector('footer p');
 footer.textContent = `© ${new Date().getFullYear()} Eco-Life. All Rights Reserved.`;
 
-const formSection = document.querySelector('#nameboxes');
-const note = document.createElement('p');
-note.textContent = 'We’ll get back to you soon!';
-formSection.appendChild(note);
+
 
 const submitButton = document.querySelector('button');
 submitButton.addEventListener('mouseover', () => {
